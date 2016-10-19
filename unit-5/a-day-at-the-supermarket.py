@@ -1,4 +1,4 @@
-shoppping_list = ['banana', 'orange', 'apple']
+shopping_list = ['banana', 'orange', 'apple']
 
 stock = {
     'banana': 6,
@@ -21,4 +21,3 @@ def compute_bill(food):
             total += prices[i]
             stock[i] -= 1
     return total
-
